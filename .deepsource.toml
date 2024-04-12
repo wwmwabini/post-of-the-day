@@ -1,15 +1,4 @@
 version = 1
 
-[[collectors]]
-  static-analyzer = true
-  exclude = [
-    "node_modules/**",
-    "vendor/**"
-  ]
-
-  [collectors.static-analyzer.languages.php]
-  enabled = true
-
-  [collectors.static-analyzer.languages.php.config.rules.security]
-  enabled = true
-
+[[analyzers]]
+name = "php"
