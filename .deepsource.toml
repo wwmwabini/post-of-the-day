@@ -1,5 +1,5 @@
 [version]
-spec = 1
+version = 1
 
 [collectors.static-analyzer]
 enabled = true
